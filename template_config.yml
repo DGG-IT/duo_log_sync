@@ -59,10 +59,11 @@ servers:
     hostname: ''
 
     # Port of server to which logs will be sent
+    # FORMAT: (INT, No Quotes)
     # MINIMUM: 0
     # MAXIMUM: 65535
     # REQUIRED
-    port: ''
+    port: 
 
     # Transport protocol used to communicate with the server
     # OPTIONS: TCP, TCPSSL, UDP
